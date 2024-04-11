@@ -1,2 +1,2 @@
 # WRKQRY2SQL
-The open source utility for automatically converting WRKQRY libraries to SQL on the IBMi
+The open source utility for automatically converting native IBMi WRKQRY and QMQRY to SQL source members in a specific library.
