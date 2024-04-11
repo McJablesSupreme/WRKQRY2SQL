@@ -41,6 +41,7 @@
            IFNULL(OBJTEXT, '') AS OBJTEXT
          FROM TABLE(qsys2.object_statistics('{library}', 'ALL'))
          WHERE OBJTYPE = '*QRYDFN'
+         OR OBJTYPE = '*QMQRY'     
          FOR READ ONLY;
 
        EXEC SQL OPEN C1;
